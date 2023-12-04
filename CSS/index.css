@@ -1,0 +1,632 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #091525;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.movil{
+    display: none;
+}
+
+header{
+    width: 100%;
+    height: 5rem;
+    display: flex;   
+    position: fixed;
+    top: 0;
+    background-color: #111a2583;
+}
+.logo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo > h1{
+    font-size: 50px;
+    color: #0F866F;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.anclas{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+.anclas > a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.anclas > a:nth-child(4){
+    margin-right: 100px;
+}
+
+/*CUERPO*/
+main{
+    width: 100%;
+    height: auto;
+}
+
+/*DESCRIPTION*/
+.block1-presentacion{
+    width: 100%;
+    height: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img-presentacion{
+    width: 100%;
+    height: 85%;
+}
+.img-presentacion > img{
+    width: 100%;
+    height: 100%;
+}
+.text-presentacion{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-presentacion > h1{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #17A7A6;
+    margin-top: 20px;
+
+}
+.text-presentacion > p{
+    margin-top: 20px;
+    color: #95ABCF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*SERVICES*/
+.services{
+    width: 100%;
+    height: 35rem;
+}
+.title-services{
+    width: 100%;
+    height: 15%;
+    
+}
+.title-services > h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #17A7A6;
+    margin-top: 40px;
+}
+.cards{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.cards > div{
+    width: 300px;
+    height: 400px;
+    background-color: #A5B9DA;
+    text-align: center;
+    border: solid #0F3945;
+    box-shadow:#2a88a3 4px 2px 20px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cards > div > p{
+    font-size: 20px;
+    display: none;
+    color: #ffffff;
+}
+.cards > div:hover > p{
+    display: block;
+    transition: ease 5s;
+    width: 100%;
+    height: 100%;
+    background-color: #a5b9dac1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-shadow: 0 0 6px #0F866F;
+}
+.cards > div > h1{
+    color: #ffffff;
+    text-shadow: 0 0 10px #0F866F;
+}
+.cards > div:hover > h1{
+    display: none;
+}
+.card1{
+    background-image: url(../IMG/imagenes-de-card/codigoo.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: 300px 400px;
+}
+.card2{
+    background-image: url(../IMG/imagenes-de-card/desarollo-software.jpeg);
+    background-position: center;
+    background-repeat: none;
+    background-size: 300px 400px;
+}
+.card3{
+    background-image: url(../IMG/imagenes-de-card/desarrollo-de-software.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: 300px 400px;
+}
+.card4{
+    background-image: url(../IMG/imagenes-de-card/proyectos-desarrollo.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: 300px 400px;
+}
+
+/*PRINCIPLES*/
+
+.principles{
+    width: 100%;
+    height: 25rem;
+}
+.principles > div{
+    width: 100%;
+}
+.principles > div:nth-child(1){
+    width: 100%;
+    height: 10%;
+    color: #0F866F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.principles > div:nth-child(2){
+    display: flex;
+    margin-top: 30px;
+}
+.principles > div:nth-child(2) > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    gap: 30px;
+}
+.principles > div:nth-child(2) > div > h2{
+    width: 80%;
+    margin-top: 50px;
+    text-align: start;
+    font-size: 25px;
+    color: #0F866F;
+}
+.principles > div:nth-child(2) > div > p{
+    width: 80%;
+    font-size: 20px;
+    text-align: start;
+    color: #ffffff;
+}
+.video{
+    width: 560px;
+    height: 315px;
+}
+
+/*INSTAGRAM*/
+.instagram{
+    width: 100%;
+    height: 15rem;
+    margin-top: 4rem;
+}
+.instagram > div:nth-child(1){
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.instagram > div:nth-child(1) > h1{
+    margin-left: 4rem;
+    color: #0F866F;
+    font-size: 32px;
+}
+.instagram > div:nth-child(1) > img{
+    width: 60px;
+    height: 60px;
+    margin-right: 4rem;
+}
+.instagram > div:nth-child(2){
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instagram > div:nth-child(2) > p{
+    color: #ffffff;
+    width: 80%;
+    height: 90%;
+    font-size: 25px;
+    margin-top: 20px;
+}
+footer{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px){
+    header{
+        width: 100%;
+    }
+    .logo > h1{
+        font-size: 35px;
+    }
+    .anclas{
+        gap: 15px;
+    }
+    .anclas > a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        background-color: #0F3945;
+        border-radius: 20px;
+        padding: 0 5px 0 5px;
+        height: 25px;
+    }
+    .block1-presentacion{
+        height: 55rem;
+    }
+    .text-presentacion > h1{
+        font-size: 35px;
+        margin-top: 50px;
+    }
+    .text-presentacion > p{
+        font-size: 17px;
+    }
+    .services{
+        height: 55rem;
+    }
+    .title-services > h1{
+        font-size: 30px;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 250px);
+        grid-template-rows: repeat(3, 300px);
+        gap: 50px;
+        justify-content: center;
+    }
+    .cards > div{
+        width: 250px;
+        height: 300px;
+    }
+    .card1,
+    .card2,
+    .card3,
+    .card4{
+        background-size: 300px 350px; 
+    }
+
+    .principles{
+        height: 20rem;
+    }
+    .principles > div:nth-child(1){
+        font-size: 20px;
+    }
+    .principles > div:nth-child(2) > div > h2{
+        font-size: 20px;
+    }
+    .principles > div:nth-child(2) > div > p{
+        font-size: 17px;
+    }
+    .principles > div:nth-child(2) > div:nth-child(2){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .video{
+        margin-top: 3rem;
+        width: 250px;
+        height: 200px;
+    }
+    .instagram > div:nth-child(1) > h1{
+        font-size: 25px;
+    }
+    .instagram > div:nth-child(1) > img{
+        width: 40px;
+        height: 40px;
+    }
+    .instagram > div:nth-child(2) > p{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .anclas{
+        display: none;   
+    }
+    header{
+        width: 100%;
+    }
+    .logo{
+        width: 70%;
+        height: 100%;
+    }
+    .logo > h1{
+        width: 100%;
+        font-size: 25px;
+        display: flex;
+        justify-content: start;
+        margin-left: 20px;
+    }
+    .movil{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .movil > div{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .movil > div > a{
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .movil > summary{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+    .movil > summary > div{
+        width: 50px;
+        height: 5px;
+        background-color: #0F866F;
+    }
+    .block1-presentacion{
+        height: 55rem;
+    }
+    .text-presentacion > h1{
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    .text-presentacion > p{
+        font-size: 17px;
+    }
+    .services{
+        height: 40rem;
+    }
+    .title-services > h1{
+        font-size: 30px;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 150px);
+        grid-template-rows: repeat(3, 200px);
+        gap: 50px;
+        justify-content: center;
+    }
+    .cards > div{
+        width: 150px;
+        height: 200px;
+    }
+    .card1,
+    .card2,
+    .card3,
+    .card4{
+        background-size: 150px 200px; 
+    }
+    .card1 >h1,
+    .card2 >h1,
+    .card3 >h1,
+    .card4 >h1{
+        font-size: 20px;
+    }
+    .cards > div > p{
+        font-size: 15px;
+    }
+
+    .principles{
+        height: 25rem;
+    }
+    .principles > div:nth-child(1){
+        font-size: 20px;
+    }
+    .principles > div:nth-child(2){
+        display: flex;
+        flex-direction: column;
+    }
+    .principles > div:nth-child(2) > div{
+        width: 100%;
+    }
+    .principles > div:nth-child(2) > div > h2{
+        font-size: 20px;
+    }
+    .principles > div:nth-child(2) > div > p{
+        font-size: 17px;
+    }
+    .principles > div:nth-child(2) > div:nth-child(2){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .video{
+        margin-top: 3rem;
+        width: 200px;
+        height: 100px;
+    }
+    .instagram > div:nth-child(1) > h1{
+        font-size: 25px;
+    }
+    .instagram > div:nth-child(1) > img{
+        width: 40px;
+        height: 40px;
+    }
+    .instagram > div:nth-child(2) > p{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .anclas{
+        display: none;   
+    }
+    header{
+        width: 100%;
+    }
+    .logo{
+        width: 70%;
+        height: 100%;
+    }
+    .logo > h1{
+        width: 100%;
+        font-size: 25px;
+        display: flex;
+        justify-content: start;
+        margin-left: 20px;
+    }
+    .movil{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .movil > div{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .movil > div > a{
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .movil > summary{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+    .movil > summary > div{
+        width: 50px;
+        height: 5px;
+        background-color: #0F866F;
+    }
+    .block1-presentacion{
+        height: 55rem;
+    }
+    .text-presentacion > h1{
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    .text-presentacion > p{
+        font-size: 17px;
+    }
+    .services{
+        height: 40rem;
+    }
+    .title-services > h1{
+        font-size: 30px;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 150px);
+        grid-template-rows: repeat(3, 200px);
+        gap: 50px;
+        justify-content: center;
+    }
+    .cards > div{
+        width: 150px;
+        height: 200px;
+    }
+    .card1,
+    .card2,
+    .card3,
+    .card4{
+        background-size: 150px 200px; 
+    }
+    .card1 >h1,
+    .card2 >h1,
+    .card3 >h1,
+    .card4 >h1{
+        font-size: 20px;
+    }
+    .cards > div > p{
+        font-size: 15px;
+    }
+
+    .principles{
+        height: 25rem;
+    }
+    .principles > div:nth-child(1){
+        font-size: 20px;
+    }
+    .principles > div:nth-child(2){
+        display: flex;
+        flex-direction: column;
+    }
+    .principles > div:nth-child(2) > div{
+        width: 100%;
+    }
+    .principles > div:nth-child(2) > div > h2{
+        font-size: 20px;
+    }
+    .principles > div:nth-child(2) > div > p{
+        font-size: 17px;
+    }
+    .principles > div:nth-child(2) > div:nth-child(2){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .video{
+        margin-top: 3rem;
+        width: 200px;
+        height: 100px;
+    }
+    .instagram > div:nth-child(1) > h1{
+        font-size: 25px;
+    }
+    .instagram > div:nth-child(1) > img{
+        width: 40px;
+        height: 40px;
+    }
+    .instagram > div:nth-child(2) > p{
+        font-size: 17px;
+    }
+}
