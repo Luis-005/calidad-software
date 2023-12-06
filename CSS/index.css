@@ -680,7 +680,7 @@ footer{
         background-color: #0F866F;
     }
     .block1-presentacion{
-        height: 55rem;
+        height: 60rem;
     }
     .text-presentacion > h1{
         font-size: 25px;
@@ -690,9 +690,10 @@ footer{
         font-size: 17px;
     }
     .services{
-        height: 50rem;
+        height: 45rem;
     }
     .title-services > h1{
+        margin-top: 30px;
         font-size: 30px;
     }
     .cards{
