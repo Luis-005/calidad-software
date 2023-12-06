@@ -690,7 +690,7 @@ footer{
         font-size: 17px;
     }
     .services{
-        height: 40rem;
+        height: 45rem;
     }
     .title-services > h1{
         font-size: 30px;
@@ -750,6 +750,9 @@ footer{
         margin-top: 3rem;
         width: 200px;
         height: 100px;
+    }
+    .instagram{
+        height: 20rem;
     }
     .instagram > div:nth-child(1) > h1{
         font-size: 25px;
